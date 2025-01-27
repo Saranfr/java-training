@@ -1,0 +1,34 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) { //login system to validate user cred 
+		String str1 = "TEXT EDITOR";
+		String str2 = "I am Optimus Prime, and I send this message to any surviving Autobots taking refuge among the stars.";
+	    System.out.println(str1);
+	    System.out.println(str2);
+	    Scanner input = new Scanner(System.in);
+	    System.out.println();
+	    System.out.println("type s for replace,t for replace all and m to check matches");
+	    char ch = input.next().charAt(0);
+	    if(ch =='s'){
+	        System.out.println("Enter the character you want to replace: ");
+	        char ch1 = input.next().charAt(0);
+	        System.out.println("Enter the replacing character: ");
+	        char ch2 = input.next().charAt(0);
+	        System.out.println(str2.replace(ch1,ch2));
+	    }
+	    else if(ch == 't'){
+	        System.out.println("Enter the string you want to replace: ");
+	        String s1 = input.next();
+	        System.out.println("Enter the replacing string: ");
+	        String s2 = input.next();
+	        System.out.println(str2.replaceAll(s1,s2));
+	    }
+	    else if(ch == 'm'){
+	        System.out.println("Enter the character you want to check if matches: ");
+	        String s1 = input.next();
+	        System.out.println(s1.matches(str2));
+	    }
+	}
+	
+}/ text editor application with replace, replacAll and matches methods
