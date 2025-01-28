@@ -1,0 +1,11 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		char ch = input.next().charAt(0);
+		if(String.valueOf(ch).matches(".*[a-z A-Z].*")){
+		    System.out.print("The character is an alphabet");
+		}
+	}
+}
