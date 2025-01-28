@@ -1,0 +1,11 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the upper case string:");
+		String str = input.nextLine();
+		String str2 = str.toLowerCase();
+		System.out.print(str2);
+	}
+}
