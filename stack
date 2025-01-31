@@ -1,0 +1,69 @@
+// stack 
+import java.util.*;
+class Stack{
+    int a[] = new int[n];
+    int top =-1;
+    
+ // push ()
+ 
+ public void push(int data){
+     if(top==a.length-1){
+         System.out.println("Stack is full");
+     }
+     else{
+         top++;
+         a[top]=data;
+     }
+ }
+    
+ // pop()
+ 
+ public void pop(){
+     if(top==-1){
+         System.out.println("Stack is empty");
+     }
+     else{
+         top--;
+     }
+ }
+    
+ // peek() 
+ 
+ public void peek(){
+     if(top==-1){
+         System.out.println("Stack is empty");
+     }
+     else{
+         System.out.println("Top of the element:" + a[top]);
+     }
+ }
+ 
+ // display()
+ 
+ public void display(){
+     for(int i=top; i>=0; i--){
+         System.out.println("Display the elements:" +a[i]);
+     }
+ }
+}
+
+// main function 
+
+public class Main{
+    public static void main(String[] args){
+     
+     Scanner input = new Scanner(System.in);
+     System.out.println("Enter the Size of the Stack: ");
+     int n = input.nextInt();
+     Stack s = new Stack();
+     System.out.println("Enter the elements in the stack:");
+     for(int i=0;i<=n-1;i++){
+         int x = input.nextInt();
+         s.push(x);
+     }
+     s.pop();
+     s.peek();
+     s.display();
+        
+    }
+}
