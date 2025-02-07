@@ -19,7 +19,7 @@ INSERT INTO Employee
 INSERT INTO Employee 
 (S_no, Employee_ID, Employee_Name, DateOfBirth, DateOfJoining, Salary, Bonus, City, Address, Department, Employee_Email_id, Employee_Status) values  
 (4, '01234', 'Steve Smith', '2004-08-05', '2022-06-30', 98000, 5000.78, 'pollachi', '49', 'Employee', 'smithian@gmail.com', 'Active'),
-(5,'34', 'Br','2004-08-05', '2022-06-30', 98000, 5000.78, 'pollachi', '42', 'Employee', 'b42@gmail.com', 'Active'),
+(5,'34', 'Yunjin','2004-08-05', '2022-06-30', 98000, 5000.78, 'pollachi', '42', 'Employee', 'yjsk@gmail.com', 'Active'),
 (06,'006', 'Madonna Sebastian', '1993-06-19', '2017-08-21', 72000, 4000, 'Delhi', 'Street 6', 'Admin', 'mseb@gmail.com', 'A'),
 (07,'007', 'Smrithi Madhana', '1987-12-05', '2010-04-15', 88000, 7000, 'Pune', 'Street 7', 'Employee', 'smrithiii@gmail.com', 'A'),
 (08,'008', 'Gangster Ganesh', '1991-02-12', '2016-03-23', 67000, 5500, 'Mumbai', 'Street 8', 'HR', 'vedhalamg@gmail.com', 'A'),
