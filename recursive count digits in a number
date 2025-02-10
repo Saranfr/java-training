@@ -1,0 +1,20 @@
+
+public class Main
+{
+    static int sum=0;
+    static int countt=0;
+    public static int count(int n){
+        if(n==0){
+            return 0;
+        }
+        int temp = n%10;
+        sum = sum*10+temp;
+         countt++;
+        count(n/10);
+        return  countt;
+    }
+	public static void main(String[] args) {
+	        int number = 753;
+	        System.out.println("the reverse of 75 is:"+count(number));
+	}
+}
